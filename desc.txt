@@ -1,0 +1,61 @@
+router:
+
+/signup 
+
+/signin
+
+
+to map particular functionality to particular route, we need to use router
+
+localhost:8080/signup 
+
+
+signup - we are mapping registration functionality
+
+signin - we are mapping login functionality
+
+different routes
+
+fiber
+mux
+gin
+
+mux is a package which we can import in file and use that router functionality.
+
+
+go mod init github.com/kvbendalam > go.mod (package manager)
+
+
+/getmovies - we need to list all the movies 
+
+to convert struct to json we need to use json.NewEncoder - response
+
+request
+
+we will get json from the body
+
+to convert to struct we need to use json.NewDecoder
+
+
+
+movie struct {
+
+
+}
+
+datatype is structure 
+
+we need to send response in json format always in REST apis 
+
+To convert struct to json we need to use Encoder
+
+
+Response we will get in json format
+
+to convert this json response into struct we need to decoding
+
+
+
+
+
+
