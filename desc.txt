@@ -58,4 +58,37 @@ to convert this json response into struct we need to decoding
 
 
 
+type Book{
+    Id string
+    Name string
+    Isbn string
+    price
+    discount
+    typeofthebook
+    Price *Price
+    Author *Author
+}
 
+type Author {
+    Id
+    Name
+    noofbookswritten
+    place
+    language
+}
+
+type Price{
+    onlineprice
+    offlineprice
+}
+
+
+you need to assign data to into
+
+write APIs for the following
+
+1. Get all methods - to display all book related informatino
+2. GetbyBookid or Bookname
+3. Create a new book
+4. Delete a book
+5. Update a book
